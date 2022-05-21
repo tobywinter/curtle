@@ -13,6 +13,12 @@
   --present-cell-bg-color: theme('colors.yellow.400');
 }
 
+.main-bg {
+  background-color: aquamarine;
+  background-image: url('curtis.jpeg');
+  background-size: contain;
+}
+
 .dark {
   --default-cell-bg-color: theme('colors.slate.900');
   --default-cell-border-color: theme('colors.white');
@@ -23,6 +29,10 @@
 .high-contrast {
   --correct-cell-bg-color: theme('colors.orange.400');
   --present-cell-bg-color: theme('colors.cyan.400');
+}
+
+.empty-cell {
+  opacity: 0.5;
 }
 
 .cell-fill-animation {
